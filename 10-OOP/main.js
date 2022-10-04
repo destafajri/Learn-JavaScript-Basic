@@ -6,5 +6,5 @@ function Person(firstName, lastName, dob){
 }
 
 //instantiate object
-let Person1 = Person('John', 'Mayer', '03-03-1990')
-console.log(Person1)
+let person1 = new Person('John', 'Mayer', '03-03-1990')
+console.log(person1.dob)
