@@ -20,3 +20,28 @@ console.log(person.Address.City)
 //add key values
 person.email = 'john@top.com'
 console.log(person)
+
+
+//Json data
+const members = [
+    {
+        id : 1,
+        nama : 'john',
+        isAvailable : true
+    },
+    {
+        id : 2,
+        nama : 'Jhn',
+        isAvailable : true
+    },
+    {
+        id : 3,
+        nama : 'Jowwhan',
+        isAvailable : true
+    },
+]
+
+console.log(members)
+
+const membersJSON = JSON.stringify(members)
+console(membersJSON)
